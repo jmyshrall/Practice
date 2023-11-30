@@ -1,0 +1,80 @@
+> COMP 424 Applied Computing: **Homework 2**
+
+### Purpose
+- Apply the accumulation pattern to process data stored in lists
+- Use test-driven incremental development to document, test, design, 
+    implement, and debug functions
+
+### Examine the starter project
+- Read the code in `lists_and_string.py` module. 
+- The code has **function stubs** that include:
+  - function headers and 
+  - function docstrings that describe WHAT the function should do. 
+- Read the guidelines in this document. 
+
+#### Document `lists_and_strings.py` module
+- Write your name as the program's developer
+- Write the date when you got started
+
+### Develop the functions
+To completely develop each function, use the test-driven incremental 
+development approach:
+- Understand and test the function
+- Write the design
+- Implement the function
+
+#### Understand and test the function
+In the the `main()` function definition, write TWO tests. To write each test:
+- Define local variables and assign them concrete values that match the 
+  function parameters
+- Call the function. The arguments of the function call are these local 
+  variables. 
+- Assign the return value from the call to a `result` variable. Print 
+  `result` variable.
+- The fist test is identical to the test provided in the docstring. 
+- The second test must be different. 
+
+In the **PyCharm Terminal**:
+- Change directory with the `cd` bash command to be in the `homework2` 
+  directory 
+- Run the program with the command `python lists_and_strings.py`
+- If there are debugging errors, find them and fix them.
+
+In the **Problems** tab on the status menu bar:
+- Check if there are code analysis and styling errors. 
+- If there are, find them and fix them. 
+
+#### Design the function
+In the `DESIGN.md` file:
+  - Outline the problem-solving steps
+  - Use the outline to further describe the problem solving steps in terms 
+    of computations.
+
+#### Implement the function
+In the `lists_and_strings.py` file
+- Write the implementation based on the design
+
+In the **PyCharm Terminal**:
+- Check that the current directory is `homework2` with the bash command `pwd`
+- Run the program with the command `python lists_and_strings.py`
+- If there are debugging errors, find them and fix them.
+
+In the **Problems** tab:
+- Check if there are code analysis and styling errors. 
+- If there are, find them and fix them. 
+
+### Evaluation
+- Documentation: 6%
+  - Module docstring has developer name and date information
+- Testing: 24%, 6 tests, 2 tests per function, 4% each test
+- Design: 30%, 10% each function
+- Implementation: 24%, 8% each function
+- Code analysis and styling: 16%
+
+### Submission
+- Go to https://github.com/orgs/2023-spring-comp-424 to find your 
+  **homework2-xxx** remote repo in GitHub.
+- Use the `Add File --> Upload` and choose your local files: 
+  `listls_and_strings.py` and `DESIGN.md` for uploading.
+- Upload ONLY the files, NOT upload the entire `homework2` directory.
+
